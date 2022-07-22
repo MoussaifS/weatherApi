@@ -1,0 +1,177 @@
+*{
+    font-family: Roboto;
+}
+
+html{
+    width: 100%;
+    height:  100%;
+}
+body {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+   
+}
+
+#search{
+    background-color:  white;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border: 1px solid  black;
+    border-radius: 5px;
+    margin-bottom: 67px;
+}
+
+
+#search :hover{
+   
+    
+}
+
+
+
+#search input :hover{
+    
+}
+
+#search :focus{
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+#search input{
+    width: 90%;
+    height: 1.9rem ;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 30px;
+}
+
+#search button  {
+    width: 4%;
+    background-color:  white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#search button img{
+    background-color:  white;
+    cursor: pointer;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 35%;
+    margin-top: 20px;
+
+    padding: 20px;
+}
+
+#headder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#alert{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+#place {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter ;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+#description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#description img{
+    width: 6rem;
+    margin-left: 22px;
+}
+#main {
+    display: flex;
+    
+    text-align: center;
+    justify-content:  center;
+}
+#temp{
+   
+    font-size: 10rem;
+    font-weight:bolder ;
+    color: rgba(0, 0, 0, 0.712);
+}
+#c {
+    font-size: 6rem;
+    color: rgba(0, 0, 0, 0.712);
+   
+}
+#main img{
+    width: 15%;
+    
+    
+}
+
+#main div{
+    display: flex;
+    flex-direction: row;
+    margin-right: 6%;
+}
+
+
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: center;
+
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#footer span {
+    display: flex;
+    flex-direction:row ;
+    text-align: center;
+
+    width: 19%;
+    color: rgba(0, 0, 0, 0.397);
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
