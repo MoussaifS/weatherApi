@@ -33,7 +33,7 @@ async function getWeather(location) {
         alerts.innerText = response.current.condition.text;
         Country.innerText = response.location.country;  
         city.innerText = response.location.name;
-        getIcon(response.current.condition.code)
+        icon.src = "https:"+response.current.condition.icon
         temp.innerText = response.current.temp_c;  
         tempF.innerText = response.current.temp_f;  
         let humi = response.current.humidity
