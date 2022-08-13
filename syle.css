@@ -1,52 +1,39 @@
-*{
+* {
     font-family: Roboto;
 }
 
-html{
+html {
     width: 100%;
-    height:  100%;
+    height: 100%;
 }
 body {
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:  center;
-   
+    align-items: center;
 }
 
-#search{
-    background-color:  white;
+#search {
+    background-color: white;
     width: 50%;
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
-    border: 1px solid  black;
+    border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 67px;
 }
 
-
-#search :hover{
-   
-    
-}
-
-
-
-#search input :hover{
-    
-}
-
-#search :focus{
+#search :focus {
     border: none;
     resize: none;
     outline: none;
 }
 
-#search input{
+#search input {
     width: 90%;
-    height: 1.9rem ;
+    height: 1.9rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -54,28 +41,27 @@ body {
     font-size: 30px;
 }
 
-#search button  {
+#search button {
     width: 4%;
-    background-color:  white;
+    background-color: white;
     border: none;
     cursor: pointer;
-
 }
 
-#search button img{
-    background-color:  white;
+#search button img {
+    background-color: white;
     cursor: pointer;
 }
-
 
 #content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     width: 35%;
     margin-top: 20px;
-
+    transition-timing-function: linear;
+    transition-duration: 2s;
     padding: 20px;
 }
 
@@ -87,7 +73,7 @@ body {
     padding: 10px;
 }
 
-#alert{
+#alert {
     font-size: 50px;
     color: rgba(0, 0, 0, 0.555);
 }
@@ -97,7 +83,7 @@ body {
     flex-direction: column;
     text-align: center;
     font-size: 30px;
-    font-weight: lighter ;
+    font-weight: lighter;
     color: rgba(0, 0, 0, 0.308);
 }
 
@@ -106,72 +92,48 @@ body {
     flex-direction: row;
     align-items: center;
 }
-#description img{
+#description img {
     width: 6rem;
     margin-left: 22px;
 }
 #main {
     display: flex;
-    
     text-align: center;
-    justify-content:  center;
+    justify-content: center;
 }
-#temp{
-   
+#temp {
     font-size: 10rem;
-    font-weight:bolder ;
+    font-weight: bolder;
     color: rgba(0, 0, 0, 0.712);
 }
 #c {
     font-size: 6rem;
     color: rgba(0, 0, 0, 0.712);
-   
 }
-#main img{
+#main img {
     width: 15%;
-    
-    
 }
 
-#main div{
+#main div {
     display: flex;
     flex-direction: row;
     margin-right: 6%;
 }
 
-
-
 #footer {
     display: flex;
     flex-direction: column;
-    
     flex-direction: row;
     width: 100%;
-    
     justify-content: center;
-
     color: rgba(0, 0, 0, 0.575);
 }
 
 #footer span {
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     text-align: center;
-
     width: 19%;
     color: rgba(0, 0, 0, 0.397);
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

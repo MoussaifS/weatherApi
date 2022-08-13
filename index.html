@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather</title>
-    <script src="code.js"  type="module" defer></script>
-    <link rel="stylesheet" href="syle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="search"> 
-    <input type="text" id="searchBox" placeholder="Search..." autocomplete="off">
-    <button id="searchButton"> <img src="images/search-svgrepo-com.svg" alt="#"> </button>
+    <script src="code.js" type="module" defer></script>
+    <link rel="stylesheet" href="syle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="search">
+      <input
+        type="text"
+        id="searchBox"
+        placeholder="Search..."
+        autocomplete="off"
+      />
+      <button id="searchButton">
+        <img src="images/search-svgrepo-com.svg" alt="#" />
+      </button>
     </div>
-    
-
 
     <div id="content">
-        <div id="headder">
-            <div id="place">
-                <span id="country">MALAYSIA</span>
-                <span id="city">NILAI</span>
-            </div>
-            <div id="description">
-                <span id="alert">"Weather " </span>
-                <img id="icon" src="images/weather/64x64/all/284.png" >
-            </div>
+      <div id="headder">
+        <div id="place">
+          <span id="country"></span>
+          <span id="city"></span>
         </div>
+        <div id="description">
+          <span id="alert"></span>
+          <img id="icon" />
+        </div>
+      </div>
 
-        <div id="main">
-            <span id="temp"> 45</span>
-            <span id="c">c </span>
-        </div>
-        
-        
-    
-        <div id="footer"> 
-            <span id="humidity">humidity 45</span>
-            <span id="tempF">45</span>
-        </div>
-    
+      <div id="main">
+        <span id="temp"> </span>
+        <span id="c"> </span>
+      </div>
+
+      <div id="footer">
+        <span id="humidity"></span>
+        <span id="tempF"></span>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

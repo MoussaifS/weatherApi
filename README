@@ -1,13 +1,18 @@
-# Weather Api #
-get the weather data by only the city name/code
-## used technology ##
-* js
-* html
-* json
-* css
+# Weather Api 
+Get the weather data by entering the city name or code
 
-### next update ###
-* background that change with the weather
-* figma ui 
-* vertification from wrong data 
-* enter to confirm the search
+## Used technology
+* JS
+* HTML
+* JSON
+* CSS
+
+### Next Update
+* Background that change with the weather
+* Display a warning for uncurrent names in the GUI
+* Confirm the search by clicking the 'eneter' button
+
+### Fixed in this update
+* vertification from wrong data
+* clean up the Gui 
+* use prettier to code format 
