@@ -6,6 +6,7 @@ let icon = document.getElementById("icon");
 let alerts = document.getElementById("alert");
 let humidity = document.getElementById("humidity");
 let tempF = document.getElementById("tempF");
+let tempC = document.getElementById("c");
 
 async function getWeather(location) {
   let response = await fetch(
@@ -22,6 +23,7 @@ async function getWeather(location) {
     city.innerText = response.location.name;
     icon.src = "https:" + response.current.condition.icon;
     temp.innerText = response.current.temp_c;
+    tempC.innerText = 'c'
     tempF.innerText = `fehren ${response.current.temp_f}`;
     humidity.innerText = `humidity ${response.current.humidity}`;
     alerts.innerText = response.current.condition.text;
